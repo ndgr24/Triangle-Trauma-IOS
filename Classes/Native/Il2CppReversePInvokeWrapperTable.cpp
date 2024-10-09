@@ -1,0 +1,123 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <stdint.h>
+#include <limits>
+
+
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_mDBD419B094B2CFE933BB3F63886A5AB4E44D2DC0(Il2CppChar* ___language0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosBanner_UnityAdsBannerClick_m85299A5A73349B675B7DFC8A70C4526EBD356FB1(char* ___placementId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosBanner_UnityAdsBannerDidError_m2ADF06A94F41A9D705A6CE134BA479BF1A5216DC(char* ___message0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosBanner_UnityAdsBannerDidHide_m3545D110A35B7A52E5DB3043B4801C930EC3D0BB(char* ___placementId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosBanner_UnityAdsBannerDidLoad_m4E3E7D5D79BB93F31AB924E45708D7CA7E0FF52A(char* ___placementId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosBanner_UnityAdsBannerDidShow_m717B124835BD2D332A5D2B9CDDF33DAA40779192(char* ___placementId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosBanner_UnityAdsBannerDidUnload_mD56EC8214018C10CF0E811960417E0BB2A96837A(char* ___placementId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosInitializationListener_OnInitializationComplete_m3B4E650DCCC2480881B232621097D80596ACCE9B(intptr_t ___ptr0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosInitializationListener_OnInitializationFailed_m9E5EBE5CF2569037E654DC25392CCC66B12ADFA6(intptr_t ___ptr0, int32_t ___error1, char* ___message2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosLoadListener_OnLoadFailure_m9BC820025EE3127A3E6F8707A673D80302803FEE(intptr_t ___ptr0, char* ___placementId1, int32_t ___error2, char* ___message3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosLoadListener_OnLoadSuccess_m067F074E94288A82A04A476C59D1D2B8E6106197(intptr_t ___ptr0, char* ___placementId1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosPlatform_UnityAdsDidError_m17839B695C6E832BD32ECFBD4BB2524CA441328A(int64_t ___rawError0, char* ___message1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosPlatform_UnityAdsDidFinish_mA95D311B5D74E8B7E6855315D07D122E5C6F9AC2(char* ___placementId0, int64_t ___rawShowResult1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosPlatform_UnityAdsDidStart_m28612D17C6DDCAB6ADBBD66AF86A5AF6003090DA(char* ___placementId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosPlatform_UnityAdsReady_m5D85F582C8D1DC3694BB5880B20CB41D742F1E8C(char* ___placementId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosShowListener_OnShowClick_m74B3567A09A3CE8B0C8DF7249ABD42B34D894A52(intptr_t ___ptr0, char* ___placementId1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosShowListener_OnShowComplete_m54D013061D28B6DAF0AF6C623F3B88E328901AC5(intptr_t ___ptr0, char* ___placementId1, int32_t ___completionState2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosShowListener_OnShowFailure_mDFDF48330EBD288FA6DE8AB4DF9870E4E8181025(intptr_t ___ptr0, char* ___placementId1, int32_t ___error2, char* ___message3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IosShowListener_OnShowStart_m4CBDC4DD7C621E076850843F338C6555335A4D0A(intptr_t ___ptr0, char* ___placementId1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mB85BF0265E239960FC963DCA74DC67EBCE9480AC(intptr_t ___arg0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_PurchasingPlatform_UnityAdsDidInitiatePurchasingCommand_mA26A2A613F3A5B9C3C9E997F7E4BB52A3FA4A9FC(char* ___eventString0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_PurchasingPlatform_UnityAdsPurchasingGetProductCatalog_mA728B2824DFAEA37BF3B1C9323E6209C3C44F75E();
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_PurchasingPlatform_UnityAdsPurchasingGetPurchasingVersion_mAA96D976261531030A8FD4D3034BDDC829167E99();
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_PurchasingPlatform_UnityAdsPurchasingInitialize_m08D4D207E9B5268523D9BD05EF20B6D34D74B953();
+
+
+IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[24] = 
+{
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_mDBD419B094B2CFE933BB3F63886A5AB4E44D2DC0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosBanner_UnityAdsBannerClick_m85299A5A73349B675B7DFC8A70C4526EBD356FB1),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosBanner_UnityAdsBannerDidError_m2ADF06A94F41A9D705A6CE134BA479BF1A5216DC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosBanner_UnityAdsBannerDidHide_m3545D110A35B7A52E5DB3043B4801C930EC3D0BB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosBanner_UnityAdsBannerDidLoad_m4E3E7D5D79BB93F31AB924E45708D7CA7E0FF52A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosBanner_UnityAdsBannerDidShow_m717B124835BD2D332A5D2B9CDDF33DAA40779192),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosBanner_UnityAdsBannerDidUnload_mD56EC8214018C10CF0E811960417E0BB2A96837A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosInitializationListener_OnInitializationComplete_m3B4E650DCCC2480881B232621097D80596ACCE9B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosInitializationListener_OnInitializationFailed_m9E5EBE5CF2569037E654DC25392CCC66B12ADFA6),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosLoadListener_OnLoadFailure_m9BC820025EE3127A3E6F8707A673D80302803FEE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosLoadListener_OnLoadSuccess_m067F074E94288A82A04A476C59D1D2B8E6106197),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosPlatform_UnityAdsDidError_m17839B695C6E832BD32ECFBD4BB2524CA441328A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosPlatform_UnityAdsDidFinish_mA95D311B5D74E8B7E6855315D07D122E5C6F9AC2),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosPlatform_UnityAdsDidStart_m28612D17C6DDCAB6ADBBD66AF86A5AF6003090DA),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosPlatform_UnityAdsReady_m5D85F582C8D1DC3694BB5880B20CB41D742F1E8C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosShowListener_OnShowClick_m74B3567A09A3CE8B0C8DF7249ABD42B34D894A52),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosShowListener_OnShowComplete_m54D013061D28B6DAF0AF6C623F3B88E328901AC5),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosShowListener_OnShowFailure_mDFDF48330EBD288FA6DE8AB4DF9870E4E8181025),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IosShowListener_OnShowStart_m4CBDC4DD7C621E076850843F338C6555335A4D0A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mB85BF0265E239960FC963DCA74DC67EBCE9480AC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_PurchasingPlatform_UnityAdsDidInitiatePurchasingCommand_mA26A2A613F3A5B9C3C9E997F7E4BB52A3FA4A9FC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_PurchasingPlatform_UnityAdsPurchasingGetProductCatalog_mA728B2824DFAEA37BF3B1C9323E6209C3C44F75E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_PurchasingPlatform_UnityAdsPurchasingGetPurchasingVersion_mAA96D976261531030A8FD4D3034BDDC829167E99),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_PurchasingPlatform_UnityAdsPurchasingInitialize_m08D4D207E9B5268523D9BD05EF20B6D34D74B953),
+};
